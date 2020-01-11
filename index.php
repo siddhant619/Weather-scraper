@@ -2,7 +2,7 @@
 
 <?php
 	error_reporting(E_ERROR);
-	$error="";
+	$error=" ";
 	if(isset($_GET["mycity"]))
 	{
 		$cityinput=str_replace(' ','',$_GET["mycity"]);
